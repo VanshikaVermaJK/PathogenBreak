@@ -92,6 +92,13 @@ def hindi_advice(a, last_kharif, day):
     else:
         action = f"{crop} अभी बोएँ"
         why = f"{month} के हिसाब से मिट्टी की नमी सामान्य है (पिछले {pctl:.0%} दिनों से ज़्यादा गीली){late}।"
+    if a.get("goal") == "Save water":
+        why += (f" इस योजना में दो रबी मौसमों में लगभग {a['irr_2yr']:.0f} mm सिंचाई लगती है, जबकि हर साल "
+                f"सोयाबीन→गेहूं में {a['irr_conv']:.0f} mm।")
+        new = sorted({c for c in a["table"].iloc[0]["Plan_Tuple"][1:]
+                      if E["local_area"][c] < E["LOCAL_MIN_HA"] and c != last_kharif})
+        if new:
+            why += f" इंदौर में {', '.join(crop_t(c) for c in new)} कम उगाई जाती है – पहले छोटे खेत में आज़माएँ।"
     if a.get("goal") == "Keep income" and not a.get("income_safe", True):
         why += (f" {crop_t(last_kharif)} के बाद कोई योजना आज की आय के 5% के भीतर नहीं रहती – "
                 "यह सबसे अच्छी कमाई वाला विकल्प है।")
@@ -103,16 +110,19 @@ st.sidebar.caption(T("Disease-aware crop rotation advisor · Indore, Madhya Prad
                      "रोग-जागरूक फसल-चक्र सलाहकार · इंदौर, मध्य प्रदेश"))
 crop_opts = [k for k in E["kharif_candidates"] if k not in E["NO_RABI_AFTER"]]
 last_kharif = st.sidebar.selectbox(T("What did you just harvest (Kharif)?", "आपने अभी (खरीफ़ में) क्या काटा?"),
-                                   crop_opts, index=crop_opts.index("Soybean"), format_func=crop_t)
+                                   crop_opts, index=crop_opts.index("Soybean"), format_func=crop_t, key="crop")
 GOAL_T = {"Strongest break": T("Strongest break", "रोग की कड़ी तोड़ना"),
-          "Keep income": T("Keep income", "आय बनाए रखना")}
+          "Keep income": T("Keep income", "आय बनाए रखना"),
+          "Save water": T("Save water", "पानी बचाना")}
 goal = st.sidebar.radio(T("What matters most to you?", "आपके लिए सबसे ज़रूरी क्या है?"),
-                        ["Strongest break", "Keep income"], format_func=GOAL_T.get,
+                        ["Strongest break", "Keep income", "Save water"], format_func=GOAL_T.get, key="goal",
                         captions=[T("Least disease carried over, saves groundwater",
                                     "सबसे कम रोग आगे जाता है, भूजल की बचत"),
-                                  T("Stay within 5% of today's income", "आज की आय के 5% के भीतर रहना")])
-pct = st.sidebar.slider(T("Soil moisture from sensor (%)", "सेंसर से मिट्टी की नमी (%)"), 0, 100, 62)
-day = pd.Timestamp(st.sidebar.date_input(T("Date", "तारीख़"), pd.Timestamp.now().date()))
+                                  T("Stay within 5% of today's income", "आज की आय के 5% के भीतर रहना"),
+                                  T("Least irrigation that still beats today's practice",
+                                    "सबसे कम सिंचाई, फिर भी आज की खेती से बेहतर")])
+pct = st.sidebar.slider(T("Soil moisture from sensor (%)", "सेंसर से मिट्टी की नमी (%)"), 0, 100, 62, key="pct")
+day = pd.Timestamp(st.sidebar.date_input(T("Date", "तारीख़"), pd.Timestamp.now().date(), key="day"))
 st.sidebar.divider()
 st.sidebar.caption(T("Sensor demo mode: drag the slider. With the Arduino connected, the notebook (Cell 11) "
                      "reads the real probe over Bluetooth/USB.",
@@ -162,7 +172,7 @@ m1.metric(T("Crop", "फसल"), crop_t(a["crop"])); st.caption(T("2-year plan:
 m2.metric(T("Decision", "निर्णय"), DEC_HI.get(a["decision"], a["decision"]) if HI else a["decision"])
 m3.metric(T("Income vs today (MSP)", "आज की तुलना में आय (MSP)"), f"{a['income']:+.0%}")
 m4.metric(T("Irrigation this Rabi", "इस रबी में सिंचाई"), f"~{a['irr']:.0f} mm")
-if a["pilot"] is not None and goal != "Keep income":
+if a["pilot"] is not None and goal == "Strongest break":
     p = a["pilot"]
     if HI:
         st.info(f"**प्रयोग-प्लॉट विकल्प:** {crop_t(p['Sow_Now'])} ({plan_t(p['Rotation_Plan'])}) का स्कोर ज़्यादा है, "
@@ -173,7 +183,7 @@ if a["pilot"] is not None and goal != "Keep income":
                 f"experience with it" + (f"; sowing is {p['Sowing']} now." if p["Sowing"] != "timely" else "."))
 
 # ------------------------------------------------------------------ details
-t1, t2, t3, t4, t5 = st.tabs([T("Other plans", "दूसरी योजनाएँ"), T("Three options", "तीन विकल्प"),
+t1, t2, t3, t4, t5 = st.tabs([T("Other plans", "दूसरी योजनाएँ"), T("Farmer options", "किसान के विकल्प"),
                               T("Disease map", "रोग नक्शा"), T("Real-data checks", "असली आँकड़ों से जाँच"),
                               T("Ranking", "रैंकिंग")])
 with t1:
@@ -186,14 +196,15 @@ with t1:
                               "Live_Score": "स्कोर", "Income_vs_Today": "आय (आज की तुलना में)", "Decision": "निर्णय"})
     st.dataframe(t.reset_index(drop=True), width="stretch", hide_index=True)
 with t2:
-    st.markdown(T("Same Indore field, three goals (normal year; net return over cost at 2026-27 MSP and at an "
+    st.markdown(T("Same Indore field, four goals (normal year; net return over cost at 2026-27 MSP and at an "
                   "Indore-area mandi price snapshot):",
-                  "इंदौर का वही खेत, तीन लक्ष्य (सामान्य वर्ष; 2026-27 MSP और इंदौर मंडी भाव पर लागत के बाद शुद्ध आय, "
+                  "इंदौर का वही खेत, चार लक्ष्य (सामान्य वर्ष; 2026-27 MSP और इंदौर मंडी भाव पर लागत के बाद शुद्ध आय, "
                   "₹/हेक्टेयर, 2 साल):"))
     f = E["farm"].copy()
     if HI:
         f["Option"] = f["Option"].map({"Today": "आज की खेती", "Keep income": "आय बनाए रखना",
-                                       "Strongest break": "रोग की कड़ी तोड़ना", "Pilot plot": "प्रयोग-प्लॉट"})
+                                       "Strongest break": "रोग की कड़ी तोड़ना", "Save water": "पानी बचाना",
+                                       "Pilot plot": "प्रयोग-प्लॉट"})
         f["Rotation"] = f["Rotation"].map(plan_t)
         f = f.rename(columns={"Option": "विकल्प", "Rotation": "फसल-चक्र", "Score": "स्कोर",
                               "Disease_vs_Today": "रोग (आज से)", "Irrigation_mm": "सिंचाई (mm)",
