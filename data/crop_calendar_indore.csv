@@ -1,0 +1,29 @@
+crop_name,season,years_grown,mean_area_ha,mean_yield_kg_ha,share_of_years
+Soybean,Kharif,12,233873.8,1166.2,1.0
+Maize,Kharif,12,5046.8,2297.8,1.0
+Tur,Kharif,10,850.4,793.8,0.8
+Cotton,Kharif,10,614.0,198.4,0.8
+Moong,Kharif,9,250.6,421.8,0.8
+Urad,Kharif,7,224.4,371.7,0.6
+Groundnut,Kharif,8,213.6,1999.5,0.7
+Barley,Kharif,2,200.0,2825.0,0.2
+Jowar,Kharif,9,86.5,1741.0,0.8
+Rice,Kharif,8,76.0,1324.9,0.7
+Bajra,Kharif,4,58.5,2608.5,0.3
+Sugarcane,Kharif,9,24.0,22132.7,0.8
+Mesta,Kharif,2,9.5,76.5,0.2
+Jute,Kharif,1,9.0,60.0,0.1
+Sesamum,Kharif,4,3.0,332.0,0.3
+Wheat,Rabi,12,155749.9,4416.6,1.0
+Gram,Rabi,12,43841.6,1412.0,1.0
+Other Pulses,Rabi,12,610.8,786.1,1.0
+Maize,Rabi,1,253.0,2049.0,0.1
+Lentil,Rabi,9,242.4,802.4,0.8
+Rapeseed & Mustard,Rabi,8,78.1,957.6,0.7
+Linseed,Rabi,9,6.7,744.7,0.8
+Barley,Rabi,3,1.0,2000.0,0.2
+Moong,Summer,6,1101.1,826.5,0.5
+Maize,Summer,5,1038.5,2713.8,0.4
+Rice,Summer,1,450.0,2267.0,0.1
+Groundnut,Summer,6,88.8,1151.8,0.5
+Urad,Summer,1,1.0,1000.0,0.1

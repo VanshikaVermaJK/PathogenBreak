@@ -1,0 +1,9 @@
+property,unit,0_5cm,5_15cm,15_30cm,value_0_30cm,flag
+pH (water),pH,7.1,7.1,7.1,7.1,
+Clay,%,45.0,48.1,50.5,48.78,
+Sand,%,14.5,14.2,13.6,13.95,
+Silt,%,40.4,37.7,35.9,37.25,
+Soil organic carbon,g/kg,48.0,29.9,22.1,29.02,outside_typical_range_verify
+Total nitrogen,g/kg,1.14,0.76,0.62,0.75,
+Cation exchange capacity,cmol(c)/kg,46.6,47.6,47.3,47.28,
+Bulk density,kg/dm3,1.4,1.48,1.51,1.48,

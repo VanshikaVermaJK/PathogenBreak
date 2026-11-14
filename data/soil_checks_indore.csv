@@ -1,0 +1,3 @@
+check,value,expected,result
+clay+sand+silt (%),100.0,~100,ok
+C:N ratio (SOC / N),38.7,8-15,conflict_verify_with_sensor_or_lab

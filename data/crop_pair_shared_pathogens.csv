@@ -1,0 +1,191 @@
+crop_a,crop_b,pathogens_a,pathogens_b,shared_all,shared_strong,shared_strong_specific,shared_strong_generalist,shared_both_recorded_india,jaccard,top_shared_examples,top_shared_specific_examples,evidence_status
+Wheat,Barley,835,371,241,87,61,26,9,0.25,Puccinia striiformis; Ustilago nuda; Puccinia glumarum; Puccinia recondita; Puccinia graminis f. sp. tritici,Puccinia striiformis; Ustilago nuda; Puccinia recondita; Puccinia glumarum; Puccinia graminis f. sp. tritici,ok
+Maize,Jowar,842,327,176,73,38,35,24,0.177,Sphacelotheca reiliana; Sporisorium reilianum; Helminthosporium turcicum; Peronosclerospora sorghi; Sorosporium reilianum,Sphacelotheca reiliana; Sporisorium reilianum; Helminthosporium turcicum; Peronosclerospora sorghi; Sorosporium reilianum,ok
+Maize,Rice,842,531,175,61,32,29,19,0.146,Ustilaginoidea virens; Sclerophthora macrospora; Rhizoctonia solani; Sclerotium fumigatum; Exserohilum pedicellatum,Ustilaginoidea virens; Exserohilum pedicellatum; Sclerophthora macrospora; Sclerotium fumigatum; Monascus purpureus,ok
+Wheat,Maize,835,842,275,68,29,39,17,0.196,Rhizoctonia solani; Sclerophthora macrospora; Exserohilum pedicellatum; Fusarium asiaticum; Fusarium cerealis,Exserohilum pedicellatum; Sclerophthora macrospora; Fusarium cerealis; Fusarium asiaticum; Aureobasidium pullulans,ok
+Maize,Sugarcane,842,684,153,54,28,26,14,0.111,Sclerospora sacchari; Gloeocercospora sorghi; Papularia sphaerosperma; Rhizoctonia solani; Sclerophthora macrospora,Sclerospora sacchari; Gloeocercospora sorghi; Papularia sphaerosperma; Sclerophthora macrospora; Sclerotium fumigatum,ok
+Wheat,Rice,835,531,140,50,22,28,15,0.114,Exserohilum pedicellatum; Rhizoctonia solani; Sclerophthora macrospora; Sclerotium rolfsii; Puccinia graminis,Exserohilum pedicellatum; Sclerophthora macrospora; Fusarium asiaticum; Puccinia graminis; Bipolaris hawaiiensis,ok
+Rice,Sugarcane,531,684,114,37,18,19,16,0.104,Curvularia asianensis; Rhizoctonia solani; Sclerotium fumigatum; Sclerophthora macrospora; Marasmius stenophyllus,Curvularia asianensis; Sclerophthora macrospora; Sclerotium fumigatum; Marasmius stenophyllus; Cochliobolus hawaiiensis,ok
+Soybean,Maize,457,842,138,54,16,38,7,0.119,Rhizoctonia solani; Fusarium asiaticum; Fusarium cerealis; Sclerotium rolfsii; Pythium orthogonon,Dendryphion nanum; Fusarium asiaticum; Fusarium cerealis; Pythium orthogonon; Didymella americana,ok
+Soybean,Wheat,457,835,125,54,16,38,8,0.107,Rhizoctonia solani; Fusarium cerealis; Pythium hypogynum; Sclerotium rolfsii; Fusarium asiaticum,Fusarium asiaticum; Fusarium cerealis; Pythium hypogynum; Fusarium cortaderiae; Fusarium poae,ok
+Wheat,Jowar,835,327,119,48,16,32,17,0.114,Rhizoctonia solani; Sclerophthora macrospora; Sclerotium rolfsii; Alternaria alternata; Cochliobolus geniculatus,Sclerophthora macrospora; Ascochyta sorghi; Curvularia intermedia; Colletotrichum graminicola; Fusarium brachygibbosum,ok
+Rice,Jowar,531,327,101,43,16,27,15,0.133,Sclerophthora macrospora; Rhizoctonia solani; Sclerotium rolfsii; Cochliobolus bicolor; Aspergillus niger,Sclerophthora macrospora; Alternaria longissima; Cochliobolus bicolor; Bipolaris maydis; Curvularia eragrostidis,ok
+Maize,Barley,842,371,144,38,15,23,5,0.135,Rhizoctonia solani; Sclerophthora macrospora; Fusarium cerealis; Fusarium asiaticum; Sclerophthora rayssiae,Sclerophthora macrospora; Fusarium cerealis; Fusarium asiaticum; Sclerophthora rayssiae; Fusarium poae,ok
+Jowar,Sugarcane,327,684,104,39,15,24,14,0.115,Phyllachora sacchari; Colletotrichum falcatum; Gloeocercospora sorghi; Rhizoctonia solani; Sclerophthora macrospora,Phyllachora sacchari; Colletotrichum falcatum; Gloeocercospora sorghi; Cercospora vaginae; Sclerophthora macrospora,ok
+Moong,Urad,128,92,59,25,15,10,33,0.366,Cercospora cruenta; Sphaerotheca phaseoli; Pseudocercospora cruenta; Rhizoctonia solani; Alternaria azukiae,Cercospora cruenta; Sphaerotheca phaseoli; Pseudocercospora cruenta; Elsinoe phaseoli; Protomycopsis phaseoli,ok
+Wheat,Sugarcane,835,684,103,37,14,23,11,0.073,Sclerophthora macrospora; Rhizoctonia solani; Sclerotium rolfsii; Keissleriella culmifida; Blumeria graminis,Sclerophthora macrospora; Blumeria graminis; Keissleriella culmifida; Curvularia brachyspora; Colletotrichum graminicola,ok
+Soybean,Moong,457,128,64,32,13,19,18,0.123,Cercospora cruenta; Rhizoctonia solani; Cercospora kikuchii; Ascochyta pisi; Diaporthe miriciae,Cercospora cruenta; Cercospora kikuchii; Ascochyta pisi; Fusarium cuneirostrum; Diaporthe miriciae,ok
+Rice,Barley,531,371,90,28,12,16,3,0.111,Sclerophthora macrospora; Rhizoctonia solani; Fusarium asiaticum; Sclerotium rolfsii; Puccinia graminis,Sclerophthora macrospora; Fusarium asiaticum; Puccinia graminis; Cochliobolus cynodontis; Pythium graminicola,ok
+Jowar,Bajra,327,174,72,25,11,14,21,0.168,Gloeocercospora sorghi; Rhizoctonia solani; Setosphaeria turcica; Sphacelotheca cruenta; Sclerotium rolfsii,Gloeocercospora sorghi; Setosphaeria turcica; Sphacelotheca cruenta; Tolyposporium ehrenbergii; Sphacelotheca sorghi,ok
+Soybean,Groundnut,457,268,97,47,11,36,16,0.154,Rhizoctonia solani; Cylindrocladium crotalariae; Calonectria crotalariae; Cylindrocladium parasiticum; Sclerotium rolfsii,Calonectria crotalariae; Cylindrocladium parasiticum; Cylindrocladium crotalariae; Cercospora canescens; Calonectria ilicicola,ok
+Soybean,Urad,457,92,39,20,9,11,17,0.076,Cercospora cruenta; Rhizoctonia solani; Cercospora kikuchii; Phyllosticta phaseolina; Sphaerotheca fuliginea,Cercospora cruenta; Uromyces appendiculatus; Cercospora kikuchii; Sphaerotheca fuliginea; Phyllosticta phaseolina,ok
+Maize,Bajra,842,174,86,22,8,14,24,0.092,Gloeocercospora sorghi; Rhizoctonia solani; Setosphaeria turcica; Sphacelotheca sorghi; Sclerotium rolfsii,Gloeocercospora sorghi; Setosphaeria turcica; Sphacelotheca sorghi; Bipolaris setariae; Fusarium poae,ok
+Barley,Sugarcane,371,684,61,19,8,11,5,0.061,Rhizoctonia solani; Sclerophthora macrospora; Blumeria graminis; Puccinia coronata; Sclerotium rolfsii,Sclerophthora macrospora; Blumeria graminis; Puccinia coronata; Claviceps purpurea; Fusarium sacchari,ok
+Soybean,Rice,457,531,86,31,7,24,6,0.095,Rhizoctonia solani; Sclerotium rolfsii; Fusarium asiaticum; Curvularia lunata; Corticium sasakii,Fusarium asiaticum; Fusarium cortaderiae; Fusarium meridionale; Fusarium subglutinans; Gaeumannomyces graminis,ok
+Jowar,Barley,327,371,69,27,7,20,5,0.11,Rhizoctonia solani; Sclerophthora macrospora; Sclerotium rolfsii; Fusarium acuminatum; Bipolaris sorokiniana,Sclerophthora macrospora; Colletotrichum graminicola; Ascochyta sorghi; Fusarium sacchari; Gloeosporium bolleyi,ok
+Soybean,Sugarcane,457,684,74,28,6,22,7,0.069,Rhizoctonia solani; Pythium periilum; Sclerotium rolfsii; Alternaria alternata; Corticium sasakii,Pythium periilum; Fusarium subglutinans; Phytophthora megasperma; Pythium dissotocum; Pythium inflatum,ok
+Soybean,Barley,457,371,77,31,6,25,2,0.103,Rhizoctonia solani; Fusarium cerealis; Fusarium asiaticum; Pythium hypogynum; Sclerotium rolfsii,Fusarium asiaticum; Fusarium cerealis; Pythium hypogynum; Fusarium poae; Gaeumannomyces graminis,ok
+Rice,Rapeseed & Mustard,531,251,55,19,6,13,3,0.076,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium oxysporum; Fusarium incarnatum,Alternaria brassicicola; Colletotrichum higginsianum; Dickeya oryzae; Dickeya zeae; Pseudomonas syringae,ok
+Wheat,Rapeseed & Mustard,835,251,79,21,5,16,2,0.078,Rhizoctonia solani; Olpidium brassicae; Sclerotium rolfsii; Alternaria arborescens; Alternaria alternata,Olpidium brassicae; Alternaria arborescens; Alternaria infectoria; Pleospora herbarum; Pseudomonas syringae,ok
+Maize,Cotton,842,353,107,34,5,29,6,0.098,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus flavus; Alternaria alternata; Aspergillus niger,Cephalosporium acremonium; Phytophthora parasitica; Schizophyllum commune; Phytophthora sojae; Pseudomonas syringae,ok
+Rice,Bajra,531,174,64,19,5,14,23,0.1,Tilletia barclayana; Rhizoctonia solani; Sclerotium rolfsii; Phoma sorghina; Cochliobolus australiensis,Tilletia barclayana; Cochliobolus australiensis; Cochliobolus bicolor; Cochliobolus hawaiiensis; Curvularia oryzae,ok
+Maize,Rapeseed & Mustard,842,251,86,20,4,16,4,0.085,Rhizoctonia solani; Dendryphion nanum; Sclerotium rolfsii; Alternaria alternata; Pythium ultimum,Dendryphion nanum; Phytophthora drechsleri; Alternaria brassicicola; Pseudomonas syringae,ok
+Cotton,Mesta,353,103,38,18,4,14,2,0.091,Rhizoctonia solani; Sclerotium rolfsii; Phymatotrichum omnivorum; Botryosphaeria ribis; Colletotrichum gloeosporioides,Botryosphaeria ribis; Phytophthora nicotianae; Phytophthora parasitica; Alternaria macrospora,ok
+Tur,Cotton,218,353,61,26,4,22,11,0.12,Rhizoctonia solani; Sclerotium rolfsii; Choanephora cucurbitarum; Colletotrichum capsici; Colletotrichum gloeosporioides,Colletotrichum capsici; Fusarium vasinfectum; Helicobasidium purpureum; Nematospora coryli,ok
+Wheat,Bajra,835,174,63,19,4,15,19,0.067,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Phoma sorghina; Bipolaris urochloae,Bipolaris urochloae; Fusarium chlamydosporum; Fusarium poae; Helminthosporium rostratum,ok
+Soybean,Cotton,457,353,91,41,4,37,10,0.127,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus niger; Aspergillus flavus; Colletotrichum capsici,Colletotrichum capsici; Nematospora coryli; Phytophthora sojae; Pseudomonas syringae,ok
+Wheat,Cotton,835,353,84,30,4,26,3,0.076,Rhizoctonia solani; Fusarium compactum; Sclerotium rolfsii; Curvularia lunata; Aspergillus niger,Fusarium compactum; Fusarium chlamydosporum; Fusarium concolor; Pseudomonas syringae,ok
+Soybean,Gram,457,115,57,23,4,19,15,0.111,Rhizoctonia solani; Sclerotium rolfsii; Ascochyta pisi; Aspergillus niger; Colletotrichum dematium,Ascochyta pisi; Phoma medicaginis; Phytophthora megasperma; Pleospora herbarum,ok
+Soybean,Rapeseed & Mustard,457,251,64,24,4,20,3,0.099,Rhizoctonia solani; Dendryphion nanum; Sclerotium rolfsii; Alternaria alternata; Colletotrichum gloeosporioides,Dendryphion nanum; Phytophthora megasperma; Pleospora herbarum; Pseudomonas syringae,ok
+Gram,Lentil,115,135,44,18,4,14,21,0.214,Rhizoctonia solani; Ascochyta pisi; Sclerotium rolfsii; Alternaria alternata; Phoma medicaginis,Ascochyta pisi; Phoma medicaginis; Ascochyta lentis; Ascochyta rabiei,ok
+Bajra,Sugarcane,174,684,52,16,4,12,14,0.065,Helminthosporium sacchari; Gloeocercospora sorghi; Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata,Helminthosporium sacchari; Gloeocercospora sorghi; Cochliobolus hawaiiensis; Bipolaris setariae,ok
+Maize,Sesamum,842,134,40,12,3,9,4,0.043,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Alternaria longissima; Fusarium oxysporum,Alternaria longissima; Phytophthora drechsleri; Phytophthora parasitica,ok
+Gram,Rapeseed & Mustard,115,251,40,17,3,14,4,0.123,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus niger; Fusarium equiseti,Phytophthora megasperma; Pleospora herbarum; Alternaria brassicicola,ok
+Tur,Groundnut,218,268,56,28,3,25,22,0.13,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Erysiphe polygoni,Colletotrichum capsici; Fusarium vasinfectum; Phoma herbarum,ok
+Moong,Groundnut,128,268,37,20,3,17,12,0.103,Rhizoctonia solani; Erysiphe pisi; Sclerotium rolfsii; Alternaria alternata; Fusarium solani,Erysiphe pisi; Cercospora canescens; Phoma medicaginis,ok
+Moong,Lentil,128,135,32,15,3,12,13,0.139,Erysiphe pisi; Rhizoctonia solani; Ascochyta pisi; Sclerotium rolfsii; Colletotrichum truncatum,Erysiphe pisi; Ascochyta pisi; Phoma medicaginis,ok
+Tur,Urad,218,92,36,13,3,10,21,0.131,Rhizoctonia solani; Sclerotium rolfsii; Synchytrium phaseoli-radiati; Colletotrichum capsici; Aspergillus flavus,Synchytrium phaseoli-radiati; Colletotrichum capsici; Phakopsora pachyrhizi,ok
+Soybean,Tur,457,218,65,29,3,26,21,0.107,Rhizoctonia solani; Sclerotium rolfsii; Choanephora cucurbitarum; Aspergillus flavus; Alternaria alternata,Colletotrichum capsici; Nematospora coryli; Phakopsora pachyrhizi,ok
+Cotton,Groundnut,353,268,70,30,2,28,10,0.127,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus niger; Choanephora cucurbitarum; Alternaria alternata,Colletotrichum capsici; Fusarium vasinfectum,ok
+Tur,Sesamum,218,134,37,13,2,11,8,0.117,Rhizoctonia solani; Sclerotium rolfsii; Fusarium oxysporum; Aspergillus flavus; Alternaria alternata,Phytophthora drechsleri; Podosphaera xanthii,ok
+Tur,Moong,218,128,47,20,2,18,20,0.157,Rhizoctonia solani; Sclerotium rolfsii; Synchytrium phaseoli-radiati; Alternaria alternata; Macrophomina phaseoli,Synchytrium phaseoli-radiati; Nematospora coryli,ok
+Cotton,Sugarcane,353,684,68,20,2,18,5,0.07,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Colletotrichum gloeosporioides,Fumago vagans; Schizophyllum commune,ok
+Cotton,Sesamum,353,134,39,14,2,12,7,0.087,Rhizoctonia solani; Sclerotium rolfsii; Corynespora cassiicola; Fusarium oxysporum; Alternaria alternata,Phytophthora nicotianae; Phytophthora parasitica,ok
+Urad,Groundnut,92,268,30,13,2,11,17,0.091,Rhizoctonia solani; Sclerotium rolfsii; Colletotrichum capsici; Cercospora canescens; Aspergillus flavus,Cercospora canescens; Colletotrichum capsici,ok
+Lentil,Groundnut,135,268,52,18,2,16,17,0.148,Rhizoctonia solani; Erysiphe pisi; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus,Erysiphe pisi; Phoma medicaginis,ok
+Urad,Jute,92,58,17,8,2,6,6,0.128,Rhizoctonia solani; Sclerotium rolfsii; Sphaerotheca fuliginea; Colletotrichum capsici; Macrophomina phaseolina,Sphaerotheca fuliginea; Colletotrichum capsici,ok
+Rapeseed & Mustard,Sesamum,251,134,33,11,2,9,2,0.094,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium oxysporum; Erysiphe cichoracearum,Erysiphe cichoracearum; Phytophthora drechsleri,ok
+Cotton,Jowar,353,327,60,26,2,24,4,0.097,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus niger; Cephalosporium acremonium; Choanephora cucurbitarum,Cephalosporium acremonium; Fusarium chlamydosporum,ok
+Soybean,Lentil,457,135,49,20,2,18,17,0.09,Rhizoctonia solani; Ascochyta pisi; Sclerotium rolfsii; Alternaria alternata; Aspergillus niger,Ascochyta pisi; Phoma medicaginis,ok
+Soybean,Jute,457,58,22,9,2,7,5,0.045,Rhizoctonia solani; Sphaerotheca fuliginea; Sclerotium rolfsii; Macrophomina phaseolina; Colletotrichum capsici,Sphaerotheca fuliginea; Colletotrichum capsici,ok
+Maize,Tur,842,218,73,23,2,21,16,0.074,Rhizoctonia solani; Myrothecium gramineum; Sclerotium rolfsii; Fusarium acuminatum; Alternaria alternata,Myrothecium gramineum; Phytophthora drechsleri,ok
+Wheat,Linseed,835,143,65,21,2,19,3,0.071,Rhizoctonia solani; Sclerotium rolfsii; Fusarium avenaceum; Bipolaris sorokiniana; Alternaria alternata,Gonatobotrys simplex; Pleospora herbarum,ok
+Gram,Moong,115,128,33,13,2,11,15,0.157,Rhizoctonia solani; Sclerotium rolfsii; Ascochyta pisi; Alternaria alternata; Aspergillus flavus,Ascochyta pisi; Phoma medicaginis,ok
+Jute,Sesamum,58,134,14,7,2,5,3,0.079,Rhizoctonia solani; Sclerotium rolfsii; Sphaerotheca fuliginea; Macrophomina phaseoli; Erysiphe cichoracearum,Sphaerotheca fuliginea; Erysiphe cichoracearum,ok
+Mesta,Sesamum,103,134,24,10,2,8,3,0.113,Rhizoctonia solani; Sclerotium rolfsii; Fusarium oxysporum; Corynespora cassiicola; Fusarium solani,Phytophthora nicotianae; Phytophthora parasitica,ok
+Rapeseed & Mustard,Sugarcane,251,684,35,12,2,10,1,0.039,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus niger; Fusarium incarnatum,Phytophthora megasperma; Rhizoctonia ferruginea,ok
+Moong,Jute,128,58,14,7,1,6,2,0.081,Rhizoctonia solani; Sclerotium rolfsii; Sphaerotheca fuliginea; Macrophomina phaseoli; Macrophomina phaseolina,Sphaerotheca fuliginea,ok
+Groundnut,Jute,268,58,20,7,1,6,4,0.065,Rhizoctonia solani; Sclerotium rolfsii; Colletotrichum capsici; Myrothecium roridum; Macrophomina phaseoli,Colletotrichum capsici,ok
+Urad,Sesamum,92,134,21,10,1,9,7,0.102,Rhizoctonia solani; Sclerotium rolfsii; Sphaerotheca fuliginea; Aspergillus flavus; Corynespora cassiicola,Sphaerotheca fuliginea,ok
+Groundnut,Sugarcane,268,684,59,20,1,19,13,0.066,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Colletotrichum gloeosporioides,Pythium myriotylum,ok
+Jowar,Sesamum,327,134,28,10,1,9,3,0.065,Rhizoctonia solani; Sclerotium rolfsii; Alternaria longissima; Alternaria alternata; Aspergillus flavus,Alternaria longissima,ok
+Rapeseed & Mustard,Jute,251,58,13,7,1,6,0,0.044,Rhizoctonia solani; Sclerotium rolfsii; Erysiphe cichoracearum; Macrophomina phaseolina; Erysiphe communis,Erysiphe cichoracearum,ok
+Rapeseed & Mustard,Linseed,251,143,49,16,1,15,3,0.142,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium avenaceum; Fusarium oxysporum,Pleospora herbarum,ok
+Barley,Bajra,371,174,36,11,1,10,4,0.071,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium verticillioides; Curvularia lunata,Fusarium poae,ok
+Groundnut,Rapeseed & Mustard,268,251,55,20,1,19,5,0.119,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus niger; Macrophomina phaseoli,Sclerotinia minor,ok
+Groundnut,Mesta,268,103,25,13,1,12,2,0.072,Rhizoctonia solani; Sclerotium rolfsii; Fusarium equiseti; Fusarium incarnatum; Colletotrichum gloeosporioides,Macrophomina pseudophaseolina,ok
+Groundnut,Rice,268,531,70,20,1,19,10,0.096,Rhizoctonia solani; Chaetomella raphigera; Sclerotium rolfsii; Alternaria alternata; Pithomyces chartarum,Chaetomella raphigera,ok
+Barley,Rapeseed & Mustard,371,251,58,12,1,11,0,0.103,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium acuminatum; Fusarium oxysporum,Colletotrichum higginsianum,ok
+Rice,Sesamum,531,134,24,9,1,8,2,0.037,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Alternaria longissima; Aspergillus flavus,Alternaria longissima,ok
+Urad,Rapeseed & Mustard,92,251,26,8,1,7,4,0.082,Rhizoctonia solani; Sclerotium rolfsii; Sphaerotheca macularis; Erysiphe polygoni; Macrophomina phaseoli,Sphaerotheca macularis,ok
+Cotton,Barley,353,371,50,18,1,17,1,0.074,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus flavus; Alternaria alternata; Curvularia lunata,Fusarium concolor,ok
+Cotton,Bajra,353,174,33,12,1,11,6,0.067,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Curvularia lunata; Fusarium equiseti,Fusarium chlamydosporum,ok
+Cotton,Urad,353,92,26,11,1,10,9,0.062,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus flavus; Corynespora cassiicola; Colletotrichum capsici,Colletotrichum capsici,ok
+Tur,Jute,218,58,20,6,1,5,5,0.078,Rhizoctonia solani; Sclerotium rolfsii; Macrophomina phaseolina; Colletotrichum capsici; Macrophomina phaseoli,Colletotrichum capsici,ok
+Gram,Maize,115,842,44,17,1,16,9,0.048,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Aspergillus niger,Alternaria brassicicola,ok
+Gram,Rice,115,531,33,15,1,14,6,0.054,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium incarnatum; Fusarium equiseti,Alternaria brassicicola,ok
+Soybean,Linseed,457,143,53,22,1,21,6,0.097,Rhizoctonia solani; Sclerotium rolfsii; Fusarium equiseti; Fusarium culmorum; Alternaria alternata,Pleospora herbarum,ok
+Soybean,Sesamum,457,134,31,12,1,11,7,0.055,Rhizoctonia solani; Sclerotium rolfsii; Sphaerotheca fuliginea; Alternaria alternata; Fusarium oxysporum,Sphaerotheca fuliginea,ok
+Wheat,Gram,835,115,40,16,1,15,8,0.044,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Fusarium oxysporum,Pleospora herbarum,ok
+Gram,Linseed,115,143,33,15,1,14,9,0.147,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium solani; Fusarium oxysporum,Pleospora herbarum,ok
+Gram,Groundnut,115,268,43,19,1,18,16,0.126,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus niger; Aspergillus flavus,Phoma medicaginis,ok
+Gram,Sugarcane,115,684,26,13,1,12,7,0.034,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus niger; Aspergillus flavus; Alternaria alternata,Phytophthora megasperma,ok
+Soybean,Jowar,457,327,67,33,1,32,9,0.093,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Aspergillus niger,Fusarium subglutinans,ok
+Soybean,Bajra,457,174,34,13,1,12,10,0.057,Rhizoctonia solani; Sclerotium rolfsii; Fusarium equiseti; Curvularia lunata; Alternaria alternata,Fusarium poae,ok
+Maize,Lentil,842,135,68,17,1,16,9,0.075,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Aspergillus niger,Scopulariopsis brevicaulis,ok
+Cotton,Rapeseed & Mustard,353,251,56,18,1,17,2,0.102,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus niger; Alternaria alternata; Choanephora cucurbitarum,Pseudomonas syringae,ok
+Maize,Mesta,842,103,29,13,1,12,2,0.032,Rhizoctonia solani; Sclerotium rolfsii; Fusarium equiseti; Fusarium incarnatum; Colletotrichum gloeosporioides,Phytophthora parasitica,ok
+Cotton,Rice,353,531,71,20,1,19,2,0.087,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Pithomyces chartarum,Pseudomonas syringae,ok
+Cotton,Moong,353,128,37,17,1,16,6,0.083,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Choanephora cucurbitarum,Nematospora coryli,ok
+Tur,Rapeseed & Mustard,218,251,47,17,1,16,5,0.111,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Colletotrichum gloeosporioides; Choanephora cucurbitarum,Phytophthora drechsleri,ok
+Tur,Sugarcane,218,684,50,17,1,16,13,0.059,Rhizoctonia solani; Sclerotium rolfsii; Diplodia cacaoicola; Alternaria alternata; Aspergillus flavus,Diplodia cacaoicola,ok
+Moong,Sesamum,128,134,22,11,1,10,7,0.092,Rhizoctonia solani; Sclerotium rolfsii; Sphaerotheca fuliginea; Fusarium oxysporum; Aspergillus flavus,Sphaerotheca fuliginea,ok
+Cotton,Jute,353,58,20,8,1,7,4,0.051,Rhizoctonia solani; Sclerotium rolfsii; Colletotrichum capsici; Corynespora cassiicola; Myrothecium roridum,Colletotrichum capsici,ok
+Maize,Urad,842,92,23,7,0,7,7,0.025,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus flavus; Fusarium solani; Fusarium oxysporum,,ok
+Maize,Groundnut,842,268,102,29,0,29,11,0.101,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus niger; Aspergillus flavus; Alternaria alternata,,ok
+Maize,Moong,842,128,41,15,0,15,6,0.044,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium incarnatum; Curvularia lunata,,ok
+Gram,Barley,115,371,28,11,0,11,3,0.061,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium redolens; Aspergillus flavus,,ok
+Gram,Bajra,115,174,18,8,0,8,10,0.066,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium equiseti; Fusarium oxysporum,,ok
+Gram,Cotton,115,353,42,19,0,19,9,0.099,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus niger; Aspergillus flavus,,ok
+Gram,Jowar,115,327,32,16,0,16,12,0.078,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Fusarium equiseti,,ok
+Wheat,Groundnut,835,268,83,26,0,26,10,0.081,Rhizoctonia solani; Sclerotium rolfsii; Fusarium incarnatum; Aspergillus niger; Curvularia inaequalis,,ok
+Wheat,Urad,835,92,18,5,0,5,5,0.02,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus flavus; Fusarium solani; Fusarium oxysporum,,ok
+Wheat,Lentil,835,135,58,16,0,16,10,0.064,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Fusarium equiseti,,ok
+Wheat,Tur,835,218,54,20,0,20,11,0.054,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Fusarium solani,,ok
+Soybean,Mesta,457,103,26,14,0,14,3,0.049,Rhizoctonia solani; Sclerotium rolfsii; Fusarium incarnatum; Fusarium equiseti; Colletotrichum gloeosporioides,,ok
+Wheat,Moong,835,128,30,12,0,12,5,0.032,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Pythium aphanidermatum,,ok
+Gram,Mesta,115,103,20,11,0,11,3,0.101,Rhizoctonia solani; Sclerotium rolfsii; Fusarium equiseti; Leveillula taurica; Fusarium incarnatum,,ok
+Gram,Jute,115,58,15,5,0,5,5,0.095,Rhizoctonia solani; Sclerotium rolfsii; Macrophomina phaseolina; Macrophomina phaseoli; Botrytis cinerea,,ok
+Gram,Sesamum,115,134,28,11,0,11,6,0.127,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium oxysporum; Aspergillus flavus,,ok
+Gram,Tur,115,218,34,15,0,15,20,0.114,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium oxysporum; Fusarium incarnatum,,ok
+Wheat,Sesamum,835,134,31,7,0,7,1,0.033,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium oxysporum; Aspergillus flavus,,ok
+Wheat,Mesta,835,103,22,10,0,10,0,0.024,Rhizoctonia solani; Sclerotium rolfsii; Fusarium verticillioides; Fusarium equiseti; Fusarium incarnatum,,ok
+Wheat,Jute,835,58,13,3,0,3,2,0.015,Rhizoctonia solani; Sclerotium rolfsii; Botrytis cinerea,,ok
+Gram,Urad,115,92,25,9,0,9,17,0.137,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus flavus; Colletotrichum dematium; Fusarium oxysporum,,ok
+Tur,Bajra,218,174,32,11,0,11,23,0.089,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium verticillioides; Curvularia lunata,,ok
+Cotton,Lentil,353,135,47,15,0,15,5,0.107,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Curvularia lunata; Fusarium equiseti,,ok
+Tur,Linseed,218,143,38,14,0,14,8,0.118,Rhizoctonia solani; Sclerotium rolfsii; Fusarium oxysporum; Fusarium incarnatum; Alternaria alternata,,ok
+Urad,Rice,92,531,22,6,0,6,5,0.037,Rhizoctonia solani; Sclerotium rolfsii; Fusarium oxysporum; Aspergillus flavus; Macrophomina phaseolina,,ok
+Lentil,Sesamum,135,134,25,9,0,9,6,0.102,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Fusarium oxysporum,,ok
+Lentil,Linseed,135,143,37,11,0,11,5,0.154,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium verticillioides; Fusarium culmorum,,ok
+Lentil,Jute,135,58,14,4,0,4,4,0.078,Rhizoctonia solani; Sclerotium rolfsii; Macrophomina phaseolina; Botrytis cinerea,,ok
+Lentil,Sugarcane,135,684,35,10,0,10,9,0.045,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus flavus; Alternaria alternata; Aspergillus niger,,ok
+Lentil,Mesta,135,103,19,8,0,8,2,0.087,Rhizoctonia solani; Sclerotium rolfsii; Fusarium equiseti; Fusarium oxysporum; Fusarium verticillioides,,ok
+Lentil,Bajra,135,174,24,8,0,8,12,0.084,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Curvularia lunata; Fusarium oxysporum,,ok
+Lentil,Rapeseed & Mustard,135,251,49,11,0,11,5,0.145,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Macrophomina phaseolina; Aspergillus niger,,ok
+Lentil,Urad,135,92,25,8,0,8,15,0.124,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus flavus; Colletotrichum truncatum; Fusarium oxysporum,,ok
+Lentil,Barley,135,371,37,13,0,13,3,0.079,Rhizoctonia solani; Sclerotium rolfsii; Curvularia lunata; Aspergillus flavus; Alternaria alternata,,ok
+Lentil,Jowar,135,327,40,13,0,13,11,0.095,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus niger; Aspergillus flavus; Alternaria alternata,,ok
+Lentil,Rice,135,531,40,13,0,13,9,0.064,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus niger; Aspergillus flavus; Alternaria alternata,,ok
+Moong,Linseed,128,143,21,11,0,11,6,0.084,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Macrophomina phaseolina; Fusarium incarnatum,,ok
+Moong,Bajra,128,174,16,7,0,7,7,0.056,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium incarnatum; Curvularia lunata,,ok
+Moong,Sugarcane,128,684,31,12,0,12,5,0.04,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Curvularia lunata,,ok
+Moong,Mesta,128,103,21,9,0,9,3,0.1,Rhizoctonia solani; Sclerotium rolfsii; Fusarium solani; Colletotrichum gloeosporioides; Fusarium incarnatum,,ok
+Moong,Jowar,128,327,32,15,0,15,7,0.076,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Colletotrichum gloeosporioides; Curvularia lunata,,ok
+Moong,Barley,128,371,24,11,0,11,2,0.051,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium solani; Aspergillus flavus,,ok
+Moong,Rice,128,531,33,12,0,12,3,0.053,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus flavus; Macrophomina phaseolina,,ok
+Moong,Rapeseed & Mustard,128,251,32,12,0,12,2,0.092,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Choanephora cucurbitarum; Macrophomina phaseoli,,ok
+Cotton,Linseed,353,143,47,16,0,16,5,0.105,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium equiseti; Fusarium scirpi,,ok
+Tur,Mesta,218,103,30,13,0,13,4,0.103,Rhizoctonia solani; Sclerotium rolfsii; Fusarium equiseti; Fusarium incarnatum; Colletotrichum gloeosporioides,,ok
+Maize,Jute,842,58,18,5,0,5,3,0.02,Rhizoctonia solani; Sclerotium rolfsii; Macrophomina phaseolina; Macrophomina phaseoli; Botrytis cinerea,,ok
+Maize,Linseed,842,143,65,19,0,19,5,0.071,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Macrophomina phaseolina; Bipolaris sorokiniana,,ok
+Tur,Barley,218,371,37,14,0,14,3,0.067,Rhizoctonia solani; Sclerotium rolfsii; Fusarium acuminatum; Curvularia lunata; Alternaria alternata,,ok
+Tur,Jowar,218,327,47,21,0,21,18,0.094,Rhizoctonia solani; Sclerotium rolfsii; Choanephora cucurbitarum; Aspergillus flavus; Alternaria alternata,,ok
+Tur,Rice,218,531,49,18,0,18,18,0.07,Rhizoctonia solani; Sclerotium rolfsii; Phoma sorghina; Alternaria alternata; Aspergillus flavus,,ok
+Tur,Lentil,218,135,32,14,0,14,18,0.1,Rhizoctonia solani; Sclerotium rolfsii; Colletotrichum truncatum; Curvularia lunata; Alternaria alternata,,ok
+Urad,Bajra,92,174,14,4,0,4,9,0.056,Rhizoctonia solani; Sclerotium rolfsii; Macrophomina phaseolina; Fusarium oxysporum,,ok
+Groundnut,Bajra,268,174,31,11,0,11,16,0.075,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Macrophomina phaseolina; Fusarium equiseti,,ok
+Groundnut,Jowar,268,327,59,25,0,25,12,0.11,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus niger; Aspergillus flavus; Colletotrichum dematium,,ok
+Urad,Jowar,92,327,20,8,0,8,9,0.05,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus flavus; Colletotrichum dematium; Fusarium solani,,ok
+Jowar,Rapeseed & Mustard,327,251,44,17,0,17,2,0.082,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Aspergillus niger; Choanephora cucurbitarum,,ok
+Rice,Mesta,531,103,22,9,0,9,0,0.036,Rhizoctonia solani; Sclerotium rolfsii; Fusarium solani; Fusarium equiseti; Fusarium incarnatum,,ok
+Rice,Jute,531,58,13,4,0,4,3,0.023,Rhizoctonia solani; Sclerotium rolfsii; Macrophomina phaseolina; Botrytis cinerea,,ok
+Rice,Linseed,531,143,41,14,0,14,1,0.065,Rhizoctonia solani; Sclerotium rolfsii; Fusarium avenaceum; Fusarium equiseti; Alternaria alternata,,ok
+Groundnut,Sesamum,268,134,32,10,0,10,5,0.086,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus flavus; Alternaria alternata; Fusarium oxysporum,,ok
+Groundnut,Linseed,268,143,44,13,0,13,6,0.12,Rhizoctonia solani; Sclerotium rolfsii; Fusarium incarnatum; Fusarium equiseti; Alternaria alternata,,ok
+Groundnut,Barley,268,371,53,14,0,14,3,0.09,Rhizoctonia solani; Sclerotium rolfsii; Fusarium equiseti; Fusarium acuminatum; Alternaria alternata,,ok
+Urad,Barley,92,371,15,5,0,5,3,0.033,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus flavus; Fusarium solani; Fusarium oxysporum,,ok
+Urad,Linseed,92,143,20,7,0,7,6,0.093,Rhizoctonia solani; Sclerotium rolfsii; Fusarium oxysporum; Leveillula taurica; Fusarium solani,,ok
+Urad,Mesta,92,103,16,7,0,7,3,0.089,Rhizoctonia solani; Sclerotium rolfsii; Corynespora cassiicola; Fusarium solani; Fusarium oxysporum,,ok
+Urad,Sugarcane,92,684,19,6,0,6,7,0.025,Rhizoctonia solani; Sclerotium rolfsii; Fusarium oxysporum; Aspergillus flavus; Macrophomina phaseolina,,ok
+Barley,Jute,371,58,9,3,0,3,1,0.021,Rhizoctonia solani; Sclerotium rolfsii; Botrytis cinerea,,ok
+Barley,Mesta,371,103,13,8,0,8,0,0.028,Rhizoctonia solani; Sclerotium rolfsii; Fusarium equiseti; Fusarium incarnatum; Fusarium verticillioides,,ok
+Jowar,Mesta,327,103,22,11,0,11,1,0.054,Rhizoctonia solani; Sclerotium rolfsii; Colletotrichum gloeosporioides; Fusarium incarnatum; Fusarium equiseti,,ok
+Jowar,Jute,327,58,15,4,0,4,3,0.041,Rhizoctonia solani; Sclerotium rolfsii; Macrophomina phaseolina; Macrophomina phaseoli,,ok
+Jowar,Linseed,327,143,38,16,0,16,3,0.088,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Bipolaris sorokiniana; Fusarium equiseti,,ok
+Rapeseed & Mustard,Mesta,251,103,24,10,0,10,0,0.073,Rhizoctonia solani; Sclerotium rolfsii; Leveillula taurica; Colletotrichum gloeosporioides; Fusarium equiseti,,ok
+Barley,Linseed,371,143,46,16,0,16,1,0.098,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Bipolaris sorokiniana; Fusarium incarnatum,,ok
+Barley,Sesamum,371,134,20,6,0,6,0,0.041,Rhizoctonia solani; Sclerotium rolfsii; Aspergillus flavus; Alternaria alternata; Fusarium solani,,ok
+Rapeseed & Mustard,Bajra,251,174,25,9,0,9,5,0.062,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium equiseti; Fusarium incarnatum,,ok
+Bajra,Linseed,174,143,22,9,0,9,4,0.075,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium equiseti; Fusarium incarnatum,,ok
+Bajra,Sesamum,174,134,20,5,0,5,5,0.069,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Macrophomina phaseolina; Fusarium oxysporum,,ok
+Bajra,Mesta,174,103,16,6,0,6,0,0.061,Rhizoctonia solani; Sclerotium rolfsii; Fusarium incarnatum; Fusarium equiseti; Fusarium verticillioides,,ok
+Bajra,Jute,174,58,10,3,0,3,4,0.045,Rhizoctonia solani; Sclerotium rolfsii; Macrophomina phaseolina,,ok
+Sugarcane,Jute,684,58,13,4,0,4,3,0.018,Rhizoctonia solani; Sclerotium rolfsii; Macrophomina phaseolina; Macrophomina phaseoli,,ok
+Sugarcane,Mesta,684,103,18,8,0,8,1,0.023,Rhizoctonia solani; Sclerotium rolfsii; Colletotrichum gloeosporioides; Fusarium incarnatum; Fusarium verticillioides,,ok
+Sugarcane,Linseed,684,143,30,9,0,9,4,0.038,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium incarnatum; Fusarium oxysporum,,ok
+Sugarcane,Sesamum,684,134,24,7,0,7,2,0.03,Rhizoctonia solani; Sclerotium rolfsii; Alternaria alternata; Fusarium oxysporum; Aspergillus flavus,,ok
+Mesta,Linseed,103,143,20,11,0,11,3,0.088,Rhizoctonia solani; Sclerotium rolfsii; Fusarium equiseti; Leveillula taurica; Fusarium incarnatum,,ok
+Mesta,Jute,103,58,17,5,0,5,1,0.118,Rhizoctonia solani; Sclerotium rolfsii; Macrophomina phaseoli; Corynespora cassiicola; Botrytis cinerea,,ok
+Jute,Linseed,58,143,13,5,0,5,1,0.069,Rhizoctonia solani; Sclerotium rolfsii; Macrophomina phaseolina; Macrophomina phaseoli; Botrytis cinerea,,ok
+Linseed,Sesamum,143,134,32,10,0,10,6,0.131,Rhizoctonia solani; Sclerotium rolfsii; Fusarium oxysporum; Alternaria alternata; Fusarium solani,,ok
