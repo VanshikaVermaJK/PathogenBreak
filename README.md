@@ -36,3 +36,5 @@ streamlit run app.py     # farmer app (English / हिंदी)
 
 ## Limitations
 USDA records mean "found on", not "proven to cause disease"; suitability curves, weights, sowing windows and field actions are literature-based assumptions (sensitivity-tested); across 55 MP districts more repetition goes with slightly lower yields but not significantly — a field trial is the next step; the sensor needs field calibration.
+
+**Use of AI:** Code and text were developed with the help of an AI assistant (Claude, Anthropic); data choices, testing and decisions were made by the team.
